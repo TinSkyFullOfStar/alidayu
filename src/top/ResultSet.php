@@ -1,4 +1,5 @@
 <?php
+namespace TinSky\top;
 /**
  * 返回的默认类
  * 

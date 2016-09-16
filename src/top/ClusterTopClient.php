@@ -1,4 +1,9 @@
 <?php
+namespace TinSky\top;
+
+use TinSky\top\TopClient;
+use TinSky\top\ApplicationVar;
+
 class ClusterTopClient extends TopClient {
 
 	private static $dnsconfig;
@@ -196,4 +201,3 @@ class ClusterTopClient extends TopClient {
 
 	private function randomFloat($min = 0, $max = 1) { return $min + mt_rand() / mt_getrandmax() * ($max - $min); }
 }
-?>

@@ -1,10 +1,15 @@
 <?php
+
+namespace TinSky\top\request;
 /**
  * TOP API: alibaba.aliqin.fc.flow.charge request
  * 
  * @author auto create
  * @since 1.0, 2016.03.30
  */
+
+use TinSky\top\RequestCheckUtil;
+
 class AlibabaAliqinFcFlowChargeRequest
 {
 	/** 

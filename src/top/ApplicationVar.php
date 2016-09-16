@@ -1,5 +1,7 @@
 <?php
 
+namespace TinSky\top;
+
 class ApplicationVar
 {
 	var $save_file;
@@ -43,5 +45,3 @@ class ApplicationVar
       @fclose($fp);
  	}
 }
-
-?>

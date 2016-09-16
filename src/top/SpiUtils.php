@@ -1,4 +1,9 @@
 <?php
+
+namespace TinSky\top;
+
+
+
 class SpiUtils{
 	private static $top_sign_list = "HTTP_TOP_SIGN_LIST";
 	private static $timestamp = "timestamp";
@@ -211,4 +216,3 @@ class SpiUtils{
 		$replace = array(" ", "\r", "\n", "\t"); return str_replace($replace, $glue, $str);
 	}
 }
-?>

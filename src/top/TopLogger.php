@@ -1,4 +1,7 @@
 <?php
+
+namespace TinSky\top;
+
 class TopLogger
 {
 	public $conf = array(

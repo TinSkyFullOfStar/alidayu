@@ -12,5 +12,8 @@
         "psr-4": {
             "TinSky\\": "src/"
         }
+    },
+    "require": {
+        "tinsky/alidayu": "^0.1.0"
     }
 }

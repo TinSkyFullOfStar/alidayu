@@ -1,10 +1,17 @@
 <?php
+
+namespace TinSky\top\request;
 /**
  * TOP API: alibaba.aliqin.fc.sms.num.send request
  * 
  * @author auto create
  * @since 1.0, 2016.05.24
  */
+
+use TinSky\top\ResultSet;
+use TinSky\top\RequestCheckUtil;
+
+
 class AlibabaAliqinFcSmsNumSendRequest
 {
 	/** 

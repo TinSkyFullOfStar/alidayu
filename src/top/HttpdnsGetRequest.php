@@ -1,5 +1,7 @@
 <?php
 
+namespace TinSky\top;
+
 class HttpdnsGetRequest
 {
 	private $apiParas = array();

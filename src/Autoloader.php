@@ -1,5 +1,8 @@
 <?php
 
+namespace TinSky;
+
+
 class Autoloader{
   
   /**
@@ -52,4 +55,3 @@ class Autoloader{
 }
 
 spl_autoload_register('Autoloader::autoload');
-?>
