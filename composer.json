@@ -1,0 +1,16 @@
+{
+    "name": "TinSkyFullOfStar/alidayu",
+    "license": "MIT",
+    "keyword": ["sms", "alidayu"],
+    "authors": [
+        {
+            "name": "TinSky",
+            "email": "867183036@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TinSky\\": "src/"
+        }
+    }
+}
