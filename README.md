@@ -9,6 +9,14 @@
     ALIDAYU_SMS_FREE_SIGN_NAME
     ALIDAYU_SMS_TEMPLATE_CODE
     You can use the setSmsParam method to set the params your sms template need by type of array.
+    Laravel 应用
+
+    注册 AliServiceProvider:
+
+    \TinSky\Providers\AliServiceProvider::class
+    创建配置文件：
+
+    php artisan vendor:publish
 
 
 #Pay Attention
