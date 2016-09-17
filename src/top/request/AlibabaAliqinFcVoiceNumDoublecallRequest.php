@@ -1,10 +1,17 @@
 <?php
+
+namespace TinSky\top\request;
+
 /**
  * TOP API: alibaba.aliqin.fc.voice.num.doublecall request
  * 
  * @author auto create
  * @since 1.0, 2016.03.06
  */
+
+use TinSky\top\RequestCheckUtil;
+
+
 class AlibabaAliqinFcVoiceNumDoublecallRequest
 {
 	/** 

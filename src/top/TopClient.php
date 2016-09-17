@@ -339,7 +339,17 @@ class TopClient
 				$resp
 			));
 		}
-		return $respObject;
+
+		$repSet=[];
+		if ( !($respObject instanceof \SimpleXMLElement))
+		    $repSet = json_decode(json_encode($respObject),true);
+        else{
+            foreach ($respObject->children() as $key => $val)
+                $repSet[$key] = $val;
+        }
+
+
+		return $repSet;
 	}
 
 	public function exec($paramsArray)

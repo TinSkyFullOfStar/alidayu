@@ -1,5 +1,7 @@
 <?php
 
+namespace TinSky\top\main;
+
 /**
  * 批量异步任务结果
  * @author auto create
@@ -49,4 +51,3 @@ class Task
 	 **/
 	public $task_id;	
 }
-?>

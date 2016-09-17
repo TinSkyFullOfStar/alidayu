@@ -1,4 +1,7 @@
 <?php
+
+namespace TinSky\top\request;
+
 /**
  * TOP API: taobao.time.get request
  * 

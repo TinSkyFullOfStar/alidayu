@@ -1,10 +1,17 @@
 <?php
+
+namespace TinSky\top\request;
+
 /**
  * TOP API: taobao.topats.result.get request
  * 
  * @author auto create
  * @since 1.0, 2014.04.11
  */
+
+use TinSky\top\RequestCheckUtil;
+
+
 class TopatsResultGetRequest
 {
 	/** 

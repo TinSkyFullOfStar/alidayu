@@ -1,5 +1,7 @@
 <?php
 
+namespace TinSky\top\main;
+
 /**
  * 地址区域结构
  * @author auto create
@@ -32,4 +34,3 @@ class Area
 	 **/
 	public $zip;	
 }
-?>

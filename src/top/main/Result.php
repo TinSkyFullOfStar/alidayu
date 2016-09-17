@@ -1,30 +1,31 @@
 <?php
 
+namespace TinSky\top\main;
+
 /**
- * 返回结果对象
+ * 无
  * @author auto create
  */
-class BizResult
+class Result
 {
 	
 	/** 
 	 * 错误码
 	 **/
-	public $err_code;
+	public $code;
 	
 	/** 
-	 * 返回结果
+	 * 无
 	 **/
 	public $model;
 	
 	/** 
-	 * 返回信息描述
+	 * 原因
 	 **/
 	public $msg;
 	
 	/** 
-	 * true表示成功，false表示失败
+	 * 结果
 	 **/
 	public $success;	
 }
-?>

@@ -1,5 +1,7 @@
 <?php
 
+namespace TinSky\top\main;
+
 /**
  * 1
  * @author auto create
@@ -47,4 +49,3 @@ class FcPartnerSmsDetailDto
 	 **/
 	public $sms_status;	
 }
-?>

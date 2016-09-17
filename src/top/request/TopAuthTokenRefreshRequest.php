@@ -1,10 +1,17 @@
 <?php
+
+namespace TinSky\top\request;
+
 /**
  * TOP API: taobao.top.auth.token.refresh request
  * 
  * @author auto create
  * @since 1.0, 2015.08.20
  */
+
+use TinSky\top\RequestCheckUtil;
+
+
 class TopAuthTokenRefreshRequest
 {
 	/** 

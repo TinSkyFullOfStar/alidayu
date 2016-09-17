@@ -1,4 +1,8 @@
 <?php
+
+namespace TinSky\aliyun;
+
+
 class AliyunClient
 {
 	public $accessKeyId;
@@ -227,7 +231,7 @@ class AliyunClient
 		
 		if (curl_errno($ch))
 		{
-			throw new Exception(curl_error($ch),0);
+			throw new \Exception(curl_error($ch),0);
 		}
 		curl_close($ch);
 		return $reponse;

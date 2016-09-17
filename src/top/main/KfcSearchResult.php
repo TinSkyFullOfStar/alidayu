@@ -1,5 +1,7 @@
 <?php
 
+namespace TinSky\top\main;
+
 /**
  * KFC 关键词过滤匹配结果
  * @author auto create
@@ -26,4 +28,3 @@ A、B、C、D等级按严重程度从高至低排列。
 	 **/
 	public $matched;	
 }
-?>

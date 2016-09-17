@@ -1,10 +1,17 @@
 <?php
+
+namespace TinSky\top\request;
+
 /**
  * TOP API: taobao.top.secret.get request
  * 
  * @author auto create
  * @since 1.0, 2016.04.06
  */
+
+use TinSky\top\RequestCheckUtil;
+
+
 class TopSecretGetRequest
 {
 	/** 

@@ -1,5 +1,7 @@
 <?php
 
+namespace TinSky\top\main;
+
 /**
  * 批量异步任务的子任务结果
  * @author auto create
@@ -22,4 +24,3 @@ class Subtask
 	 **/
 	public $sub_task_result;	
 }
-?>

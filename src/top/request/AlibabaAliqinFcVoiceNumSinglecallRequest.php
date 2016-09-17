@@ -1,10 +1,17 @@
 <?php
+
+namespace TinSky\top\request;
+
 /**
  * TOP API: alibaba.aliqin.fc.voice.num.singlecall request
  * 
  * @author auto create
  * @since 1.0, 2016.03.01
  */
+
+use TinSky\top\RequestCheckUtil;
+
+
 class AlibabaAliqinFcVoiceNumSinglecallRequest
 {
 	/** 

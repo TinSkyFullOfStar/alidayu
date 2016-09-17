@@ -1,4 +1,6 @@
 <?php
+
+namespace TinSky\top\request;
 /**
  * TOP API: alibaba.aliqin.fc.flow.grade request
  * 

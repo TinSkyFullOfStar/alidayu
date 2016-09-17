@@ -1,4 +1,7 @@
 <?php
+
+namespace TinSky\top\request;
+
 /**
  * TOP API: taobao.httpdns.get request
  * 

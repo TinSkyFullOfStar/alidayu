@@ -1,4 +1,8 @@
 <?php
+
+namespace TinSky\top\request;
+
+
 /**
  * TOP API: taobao.areas.get request
  * 
