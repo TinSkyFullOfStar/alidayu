@@ -1,5 +1,5 @@
 <?php
-namespace TinSky;
+namespace TinSky\Application;
 
 /**
 * Author:LittleStar of TinSky
