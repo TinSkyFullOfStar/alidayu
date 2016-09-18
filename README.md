@@ -17,6 +17,11 @@
     创建配置文件：
 
     php artisan vendor:publish
+    
+    Usage:
+    $alidayu = app('alidayu');//get the instance of alidayu
+    $alidayu->setSmsParam(['example'=>$example]);//set the params
+    $alidayu->sendCheckCodeSms('telephone_number');//send sms
 
 
 #Pay Attention
