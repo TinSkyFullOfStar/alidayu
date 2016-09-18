@@ -15,7 +15,7 @@
  */
 if (!defined("TOP_SDK_WORK_DIR"))
 {
-	define("TOP_SDK_WORK_DIR", "/tmp/");
+	define("TOP_SDK_WORK_DIR", sys_get_temp_dir());
 }
 
 /**
