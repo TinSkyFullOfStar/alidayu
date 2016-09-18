@@ -13,7 +13,7 @@ namespace TinSky\Providers;
 
 
 use Illuminate\Support\ServiceProvider;
-use TinSky\Application;
+use TinSky\Application\Application;
 
 class AliServiceProvider extends ServiceProvider
 {
@@ -26,8 +26,8 @@ class AliServiceProvider extends ServiceProvider
 
         public function register ()
         {
-            $this->app->singleton(['TinSky\\Application\\Application' => 'alidayu'],function () {
-                    return new Application(config('aliSms'));
+            $this->app->singleton(['TinSky\\Application\\Application' => 'alidayu'], function () {
+                return new Application(config('aliSms'));
             });
         }
 }
