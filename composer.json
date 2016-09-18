@@ -13,7 +13,4 @@
             "TinSky\\": "src/"
         }
     },
-    "require": {
-        "tinsky/alidayu": "^0.1.0"
-    }
 }
